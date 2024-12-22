@@ -6,10 +6,12 @@ import 'package:assignment5_ui/utiles/styles/text_styles.dart';
 import 'package:assignment5_ui/widgets/explore_card.dart';
 import 'package:assignment5_ui/widgets/heading.dart';
 import 'package:assignment5_ui/widgets/nearby_heading_section.dart';
+import 'package:assignment5_ui/widgets/nearby_location_card.dart';
 import 'package:assignment5_ui/widgets/recommanded_card.dart';
 import 'package:assignment5_ui/widgets/seeall_button.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gradient_borders/box_borders/gradient_box_border.dart';
 
@@ -25,34 +27,41 @@ class Home extends StatelessWidget {
     final width = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(
+        systemOverlayStyle: SystemUiOverlayStyle(
+          statusBarIconBrightness: Brightness.dark
+        ),
           // appBar leading
           leading: InkWell(
             onTap: () {},
             child: Container(
               margin: const EdgeInsets.only(left: 15),
-              padding: const EdgeInsets.all(2),
-              decoration: BoxDecoration(
-
-                shape: BoxShape.circle,
-                border: GradientBoxBorder(
-                    gradient: LinearGradient(
-                        colors: [
-                          AllColors.borderBlue,
-                          AllColors.borderBlue2
-                        ],
-                      begin: Alignment.topRight,
-                      end: Alignment.bottomLeft
+              alignment: Alignment.center,
+              child: Stack(
+                children: [
+                  SizedBox(
+                    height: 50,
+                    width: 50,
+                    child: CircularProgressIndicator(
+                        strokeWidth: 3,
+                      strokeCap: StrokeCap.round,
+                      value: 0.75,
+                      valueColor: AlwaysStoppedAnimation<Color>(AllColors.seeAllBlue),
                     ),
-                  width: 2
-                ),
+                  ),
+                  Positioned(
+                    top: 5,
+                    left: 5,
+                    child: CircleAvatar(
+                      radius: 20,
+                      child: Image.asset('assets/images/vegetables.png',
+                          height: 30, width: 30),
+                    ),
+                  ),
+                ],
               ),
-              child: CircleAvatar(
-                radius: 25,
-                child: Image.asset('assets/images/vegetables.png',
-                    height: 30, width: 30),
-              ),
-            ),
+            )
           ),
+          leadingWidth: 65,
           titleSpacing: 10,
           title: SizedBox(
             child: Column(
@@ -118,6 +127,9 @@ class Home extends StatelessWidget {
             const SizedBox(height: 20),
             // nearby section heading
             NearbyHeadingSection(),
+            const SizedBox(height: 20),
+            // nearby loation section
+            NearbyLocationCard()
           ],
         ),
       ),

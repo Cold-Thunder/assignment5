@@ -17,7 +17,7 @@ class ExploreCard extends StatelessWidget {
         width: 120,
         child: Card(
           color: AllColors.appBarWhite,
-          margin: const EdgeInsets.only(bottom: 20, right: 10),
+          margin: const EdgeInsets.only(bottom: 20, right: 20),
           elevation: 5,
           shadowColor: AllColors.cardShadow,
           child: Column(

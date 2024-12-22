@@ -19,6 +19,13 @@ class TextStyles{
     color: AllColors.appBarBlack
   );
 
+  static TextStyle headingTextSmaller = TextStyle(
+      fontSize: 17,
+      fontFamily: 'Poppins-Regular',
+      color: AllColors.recSubHeadingGrey,
+    fontWeight: FontWeight.bold
+  );
+
   static TextStyle exploreHeading = TextStyle(
     fontSize: 14,
     fontFamily: 'Poppins-Regular',
@@ -28,5 +35,12 @@ class TextStyles{
   static TextStyle seeAll = TextStyle(
       fontSize: 18,
       color: AllColors.seeAllBlue
+  );
+
+  static TextStyle checkAvailStyle = TextStyle(
+    fontSize: 18,
+    color: AllColors.buttonGreen,
+    fontFamily: 'Poppins-Regular',
+    fontWeight: FontWeight.bold
   );
 }

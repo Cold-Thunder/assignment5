@@ -2,6 +2,7 @@ import 'package:assignment5_ui/screens/home.dart';
 import 'package:assignment5_ui/utiles/all_colors.dart';
 import 'package:assignment5_ui/utiles/all_texts/home_texts.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class HomeMain extends StatelessWidget{
   const HomeMain({super.key});
@@ -14,6 +15,9 @@ class HomeMain extends StatelessWidget{
         scaffoldBackgroundColor: AllColors.appBarWhite,
         appBarTheme: AppBarTheme(
           backgroundColor: AllColors.appBarWhite,
+          systemOverlayStyle: SystemUiOverlayStyle(
+            statusBarColor: AllColors.transparent
+          )
         )
       ),
       home: Home()

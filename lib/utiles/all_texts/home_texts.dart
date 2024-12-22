@@ -34,10 +34,10 @@ class HomeTexts{
   // expolore cards
 
   static List<ExploreCardModel> exCardInfos= [
-    ExploreCardModel(image: HomeImages.userImage, title: HomeTexts.lombok),
-    ExploreCardModel(image: HomeImages.userImage, title: HomeTexts.bali),
-    ExploreCardModel(image: HomeImages.userImage, title: HomeTexts.rajampat),
-    ExploreCardModel(image: HomeImages.userImage, title: HomeTexts.rajampat),
+    ExploreCardModel(image: HomeImages.lambok, title: HomeTexts.lombok),
+    ExploreCardModel(image: HomeImages.bali, title: HomeTexts.bali),
+    ExploreCardModel(image: HomeImages.raja, title: HomeTexts.rajampat),
+    ExploreCardModel(image: HomeImages.raja, title: HomeTexts.rajampat),
   ];
   //
 }
