@@ -29,7 +29,8 @@ class FacilityCard extends StatelessWidget{
           ),
           SizedBox(height: 10),
           Text(model.title, style: TextStyles.exploreHeading.copyWith(
-            fontSize:14
+            fontSize:10.3,
+            color: AllColors.recExplorHeadingGrey
           ))
         ]
       )

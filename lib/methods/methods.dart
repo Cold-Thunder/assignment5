@@ -8,9 +8,12 @@ class Methods{
     List<Widget> stars = [];
     for(int i =1; i<= 5; i++){
       if(i <= rating.toInt()){
-        stars.add(SvgPicture.asset(HomeImages.starIcon, height: 16, width: 16));
-      }else{
-        stars.add(Icon(Icons.star, size: 22, color: AllColors.borderGrey));
+          stars.add(SvgPicture.asset(HomeImages.starIcon, height: 14, width: 14));
+      }else if(i-1 == rating.toInt() && i - rating < 1){
+        stars.add(Image.asset(HomeImages.starIconHalf, height: 14, width: 14));
+      }
+      else{
+        stars.add(Icon(Icons.star, size: 18, color: AllColors.borderGrey));
       }
     }
 

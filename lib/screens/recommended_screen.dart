@@ -56,8 +56,9 @@ class RecommendedScreen extends StatelessWidget{
           children: [
             // top bar section is done
             RecommendedTopSection(),
-            const SizedBox(height: 20),
+            const SizedBox(height: 30),
             RecommendedHeading(),
+            const SizedBox(height: 10),
             // recommended sub
             RecommendedSub(),
             const SizedBox(height: 20),
@@ -66,7 +67,7 @@ class RecommendedScreen extends StatelessWidget{
             const SizedBox(height: 10),
             // facility cards
             Container(
-              padding: const EdgeInsets.only(left: 15),
+              padding: const EdgeInsets.symmetric(horizontal: 15),
               height: 120,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,

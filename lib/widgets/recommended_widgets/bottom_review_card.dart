@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 class BottomReviewCard extends StatelessWidget{
   BottomReviewCard({super.key});
 
-  List<Widget> reviews = Methods.ratingCounter(4);
+  List<Widget> reviews = Methods.ratingCounter(3);
 
   @override
   Widget build(BuildContext context){
@@ -42,6 +42,7 @@ class BottomReviewCard extends StatelessWidget{
                   Text(RecommendedTexts.bottomReviewTitle, style: TextStyles.headingTextSmaller),
                   // rating
                   Row(
+                    spacing: 5,
                   children: reviews.map((item){
                     return item;
                   }).toList()
@@ -57,10 +58,7 @@ class BottomReviewCard extends StatelessWidget{
             padding: const EdgeInsets.only(left: 65),
             child: SizedBox(
               height: 60,
-              child: Text(RecommendedTexts.bottomReview, style: TextStyles.headingTextSmaller.copyWith(
-                fontSize: 14,
-                overflow: TextOverflow.fade
-              ),)
+              child: Text(RecommendedTexts.bottomReview, style: TextStyles.recReviewDecStyle,)
             ),
           )
         ],

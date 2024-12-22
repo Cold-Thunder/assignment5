@@ -3,7 +3,8 @@ class HomeImages{
   static String userImage = 'assets/images/vegetables.png';
   static String searchIcon = 'assets/icons/search_icon.svg';
   static String starIcon = 'assets/icons/star_icon.svg';
-  static String starIconHalf = 'assets/icons/half_star.svg';
+  static String starIconHalf = 'assets/icons/half_star.png';
+  static String distanceIcon = 'assets/icons/distance_icon.png';
 
 
   static String bali = 'assets/images/bali.png';

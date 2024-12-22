@@ -94,7 +94,7 @@ class _RecommandedCardState extends State<RecommandedCard> {
                   top: 15,
                   left: 15,
                   child: Container(
-                    height: 30,
+                    height: 33,
                     padding: const EdgeInsets.symmetric(horizontal: 15),
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
@@ -102,13 +102,11 @@ class _RecommandedCardState extends State<RecommandedCard> {
                     child: Row(
                       children: [
                         SvgPicture.asset(HomeImages.starIcon,
-                            height: 18, width: 18),
+                            height: 15, width: 15),
                         SizedBox(width: 5),
                         Text(
                           HomeTexts.rating,
-                          style: TextStyles.exploreHeading.copyWith(
-                              fontSize: 18, fontWeight: FontWeight.bold),
-                        ),
+                          style: TextStyles.ratingStyle,)
                       ],
                     ),
                   ),
@@ -130,7 +128,9 @@ class _RecommandedCardState extends State<RecommandedCard> {
                         SizedBox(width: 5),
                         Text(
                           HomeTexts.locationName,
-                          style: TextStyles.exploreHeading.copyWith(fontSize: 16),
+                          style: TextStyles.exploreHeading.copyWith(
+                              fontSize: 12,
+                              color: AllColors.locationBlack),
                         ),
                       ],
                     ),
@@ -152,7 +152,10 @@ class _RecommandedCardState extends State<RecommandedCard> {
                       Text(HomeTexts.locationTitle,
                           style: TextStyles.headingText),
                       Text(HomeTexts.locationSub,
-                          style: TextStyles.welcomeGreySmall)
+                          style: TextStyles.welcomeGreySmall.copyWith(
+                            fontSize: 12
+                          ),
+                      )
                     ],
                   ),
                   IconButton(

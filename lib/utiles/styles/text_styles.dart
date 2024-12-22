@@ -3,33 +3,40 @@ import 'package:flutter/material.dart';
 
 class TextStyles{
   static TextStyle welcomeGreySmall = TextStyle(
-    fontSize: 16,
+    fontSize: 10.9,
     color: AllColors.welcomeGrey
   );
 
   static TextStyle appBarUserBlack = TextStyle(
-    fontSize: 20,
+    fontSize: 14.8,
     fontFamily: 'Poppins-Bold',
     color: AllColors.appBarBlack
   );
 
   static TextStyle headingText = TextStyle(
-    fontSize: 22,
+    fontSize: 16.9,
     fontFamily: 'Poppins-Bold',
-    color: AllColors.appBarBlack
+    color: AllColors.headingBlack
   );
 
   static TextStyle headingTextSmaller = TextStyle(
-      fontSize: 17,
+      fontSize: 13,
       fontFamily: 'Poppins-Regular',
       color: AllColors.recSubHeadingGrey,
     fontWeight: FontWeight.bold
   );
 
+  static TextStyle recReviewDecStyle = TextStyle(
+      fontSize: 10.2,
+      fontFamily: 'Poppins-Regular',
+      color: AllColors.recReviewDesBlack,
+      fontWeight: FontWeight.bold
+  );
+
   static TextStyle exploreHeading = TextStyle(
-    fontSize: 14,
+    fontSize: 11,
     fontFamily: 'Poppins-Regular',
-    color: AllColors.appBarBlack
+    color: AllColors.exploreBlack
   );
 
   static TextStyle seeAll = TextStyle(
@@ -42,5 +49,12 @@ class TextStyles{
     color: AllColors.buttonGreen,
     fontFamily: 'Poppins-Regular',
     fontWeight: FontWeight.bold
+  );
+
+  static TextStyle ratingStyle = TextStyle(
+    fontSize: 13.5,
+    fontFamily: 'Poppins-Bold',
+    color: AllColors.ratingBlack,
+    fontWeight: FontWeight.w600
   );
 }

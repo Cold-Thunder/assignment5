@@ -30,11 +30,12 @@ class NearbyHeadingSection extends StatelessWidget{
                                   color: AllColors.seeAllBlue,
                                   size: 20
                               ),
+                              const SizedBox(width:3),
                               Text(
                                   HomeTexts.nearbySub,
                                   style: TextStyles.welcomeGreySmall.copyWith(
-                                      color:AllColors.appBarBlack,
-                                      fontSize: 14
+                                      color:AllColors.nearbyBlack,
+                                      fontSize: 12
                                   )
                               )
                             ]

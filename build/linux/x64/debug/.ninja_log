@@ -1,56 +1,56 @@
 # ninja log v6
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_value.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_engine.h	97ce863edc2aa2f5
+7548	8362	1734886030823780826	runner/CMakeFiles/assignment5_ui.dir/__/flutter/generated_plugin_registrant.cc.o	ca6a3bf89743b550
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	97ce863edc2aa2f5
 16106	17272	1734797881983706159	runner/CMakeFiles/assignment5_ui.dir/main.cc.o	97880a415e6a9a50
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	97ce863edc2aa2f5
-7165	8955	1734882926480099531	runner/CMakeFiles/assignment5_ui.dir/__/flutter/generated_plugin_registrant.cc.o	ca6a3bf89743b550
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_engine.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_value.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/libflutter_linux_gtk.so	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/build/linux/x64/debug/flutter/_phony_	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_view.h	97ce863edc2aa2f5
-3	7163	1734882919315977068	flutter/_phony_	97ce863edc2aa2f5
-3	7163	1734882919315977068	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	97ce863edc2aa2f5
-7163	8971	1734882926476099465	runner/CMakeFiles/assignment5_ui.dir/my_application.cc.o	830c90220f9bc9ce
-8971	9174	1734882928284130330	intermediates_do_not_run/assignment5_ui	bada11c63f755321
-9174	9256	1734882928488133813	CMakeFiles/install.util	68f59fda26b33a8d
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/libflutter_linux_gtk.so	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_engine.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_value.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_view.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	97ce863edc2aa2f5
-3	6140	1734883091762864118	flutter/_phony_	97ce863edc2aa2f5
-3	6140	1734883091762864118	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/build/linux/x64/debug/flutter/_phony_	97ce863edc2aa2f5
-6143	7142	1734883097902964825	runner/CMakeFiles/assignment5_ui.dir/__/flutter/generated_plugin_registrant.cc.o	ca6a3bf89743b550
-6141	7158	1734883097898964760	runner/CMakeFiles/assignment5_ui.dir/my_application.cc.o	830c90220f9bc9ce
-7159	7290	1734883098918981477	intermediates_do_not_run/assignment5_ui	bada11c63f755321
-7290	7382	1734883099046983575	CMakeFiles/install.util	68f59fda26b33a8d
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	97ce863edc2aa2f5
+8618	8736	1734886031895809548	CMakeFiles/install.util	68f59fda26b33a8d
+8449	8618	1734886031723804940	intermediates_do_not_run/assignment5_ui	bada11c63f755321
+7546	8449	1734886030823780826	runner/CMakeFiles/assignment5_ui.dir/my_application.cc.o	830c90220f9bc9ce
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	flutter/_phony_	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_view.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/build/linux/x64/debug/flutter/_phony_	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/libflutter_linux_gtk.so	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	97ce863edc2aa2f5
+4	7545	1734886023279578088	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/libflutter_linux_gtk.so	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_engine.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_value.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/fl_view.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	97ce863edc2aa2f5
+3	7856	1734886452469735390	flutter/_phony_	97ce863edc2aa2f5
+3	7856	1734886452469735390	/home/ColdThunder/Videos/dart/flutter assignments/assignment5/build/linux/x64/debug/flutter/_phony_	97ce863edc2aa2f5
+7863	8696	1734886460329901615	runner/CMakeFiles/assignment5_ui.dir/__/flutter/generated_plugin_registrant.cc.o	ca6a3bf89743b550
+7858	8767	1734886460325901530	runner/CMakeFiles/assignment5_ui.dir/my_application.cc.o	830c90220f9bc9ce
+8767	8936	1734886461233920698	intermediates_do_not_run/assignment5_ui	bada11c63f755321
+8936	9052	1734886461401924244	CMakeFiles/install.util	68f59fda26b33a8d

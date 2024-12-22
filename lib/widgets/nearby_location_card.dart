@@ -36,15 +36,18 @@ class NearbyLocationCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Text(HomeTexts.nearbyLocation,
-                    style: TextStyles.headingText.copyWith(fontSize: 18)),
+                    style: TextStyles.headingText.copyWith(
+                        fontSize: 14,
+                        color: AllColors.nearbyBlack),),
                 Row(
                   spacing: 5,
                   children: [
-                    Icon(Icons.arrow_back,
-                        size: 22, color: AllColors.seeAllBlue),
+                    SizedBox(
+                        child: Image.asset(HomeImages.distanceIcon, height: 9, width: 20),
+                    ),
                     Text(
                       HomeTexts.nearbyDistance,
-                      style: TextStyles.welcomeGreySmall.copyWith(fontSize: 18),
+                      style: TextStyles.welcomeGreySmall.copyWith(fontSize: 12),
                     ),
                   ],
                 ),
@@ -56,7 +59,7 @@ class NearbyLocationCard extends StatelessWidget {
                       Text(
                         HomeTexts.nearbySubDet,
                         style: TextStyles.welcomeGreySmall
-                            .copyWith(fontSize: 14),
+                            .copyWith(fontSize: 10.3),
                       ),
                       // SizedBox(width: 20),
                       SizedBox(
@@ -68,7 +71,8 @@ class NearbyLocationCard extends StatelessWidget {
                             Text(
                               HomeTexts.nearbyRating,
                               style: TextStyles.headingText.copyWith(
-                                fontSize: 16,
+                                fontSize: 13.8,
+                                color: AllColors.nearbyRatingBlack
                               ),
                             ),
                           ],

@@ -24,10 +24,10 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final width = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(
         systemOverlayStyle: SystemUiOverlayStyle(
+          statusBarColor: AllColors.appBarWhite,
           statusBarIconBrightness: Brightness.dark
         ),
           // appBar leading
@@ -68,6 +68,7 @@ class Home extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(HomeTexts.welcome, style: TextStyles.welcomeGreySmall),
+                SizedBox(height: 5),
                 Text(HomeTexts.userName, style: TextStyles.appBarUserBlack)
               ],
             ),
@@ -128,7 +129,7 @@ class Home extends StatelessWidget {
             // nearby section heading
             NearbyHeadingSection(),
             const SizedBox(height: 20),
-            // nearby loation section
+            // nearby location section
             NearbyLocationCard()
           ],
         ),

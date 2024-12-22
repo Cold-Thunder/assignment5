@@ -53,16 +53,17 @@ class RecommendedTopSection extends StatelessWidget{
             ),
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 5),
-              height: 25,
-              width: 160,
+              height: 32,
+              width: 158,
               alignment: Alignment.center,
               decoration: BoxDecoration(
                   color: AllColors.recommendOrange,
-                  borderRadius: BorderRadius.circular(5)
+                  // borderRadius: BorderRadius.circular(5)
               ),
               child: Text(RecommendedTexts.recommendNotice,
                   style: TextStyles.welcomeGreySmall.copyWith(
-                      color: AllColors.appBarWhite
+                      color: AllColors.appBarWhite,
+                    fontSize: 13
                   )
               ),
             ),
